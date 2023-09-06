@@ -32,7 +32,7 @@ socket.on("event", (eventData) => {
                     console.log("back to default value");
                 }, 1000);
                 break;
-            case 'subscription':
+            case 'subscription' || 'resub':
                 console.log("New subscriber!")
                 osc.sendFloat({
                     path: config.subscriber_osc_parameter,
