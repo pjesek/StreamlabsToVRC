@@ -1,5 +1,4 @@
 # StreamlabsToVRC
-Streamlabs alerts integration with VRChat through OSC
 
 This app integrates Streamlabs with VRChat OSC, making stream more interactive and easy to trigger animations at specified alerts.
 Currently supported alerts:
