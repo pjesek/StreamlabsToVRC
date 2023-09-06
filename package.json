@@ -1,0 +1,16 @@
+{
+  "name": "streamlabstovrc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+  },
+  "author": "pjesek",
+  "license": "ISC",
+  "dependencies": {
+    "osc": "^2.4.4",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "ws": "^8.13.0"
+  }
+}
