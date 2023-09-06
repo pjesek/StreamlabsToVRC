@@ -6,7 +6,7 @@ Currently supported alerts:
 - Follow
 - Subscription
 
-![https://cdn.discordapp.com/attachments/923607203183738890/1149059176107102248/osctwitch.gif]
+![Example of triggering a follow alert](https://cdn.discordapp.com/attachments/923607203183738890/1149059176107102248/osctwitch.gif)
 
 
 Float parameters for each alert can be configured in `config.json`.
