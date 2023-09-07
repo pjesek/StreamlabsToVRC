@@ -2,8 +2,8 @@
 
 This app integrates Streamlabs with VRChat OSC, making stream more interactive and easy to trigger animations at specified alerts.
 Currently supported alerts:
-- Follow
-- Subscription
+- Twitch Follow
+- Twitch Subscription
 
 ![Example of triggering a follow alert](https://cdn.discordapp.com/attachments/923607203183738890/1149059176107102248/osctwitch.gif)
 
