@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "pjesek",
   "license": "ISC",
   "dependencies": {
     "osc": "^2.4.4",
-    "socket.io-client": "^4.7.2",
+    "socket.io-client": "^4.7.2"
   }
 }

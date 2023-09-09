@@ -2,5 +2,6 @@
     "streamlabs_socket_token": "YOUR_STREAMLABS_SOCKET_API_TOKEN",
 
     "follower_osc_parameter": "/avatar/parameters/INSERT_PARAMETER_HERE",
-    "subscriber_osc_parameter": "/avatar/parameters/INSERT_PARAMETER_HERE"
+    "subscriber_osc_parameter": "/avatar/parameters/INSERT_PARAMETER_HERE",
+    "bits_osc_parameter": "/avatar/parameters/INSERT_PARAMETER_HERE"
 }

@@ -8,7 +8,7 @@ const address = "localhost";
 const port = 9000;
 
 socket.on("connect", () => {
-    console.log("Connected to Streamlabs, Listening for alerts ^‿^");
+    console.log("Connected to Streamlabs, Listening for alerts ^^");
 });
   
 socket.on("disconnect", () => {
@@ -29,7 +29,6 @@ socket.on("event", (eventData) => {
                         path: config.follower_osc_parameter,
                         data: 0
                         });
-                    console.log("back to default value");
                 }, 1000);
                 break;
             case 'subscription' || 'resub':
@@ -43,7 +42,19 @@ socket.on("event", (eventData) => {
                         path: config.subscriber_osc_parameter,
                         data: 0
                         });
-                    console.log("back to default value");
+                }, 1000);
+                break;
+            case 'bits':
+                console.log("Bits sent!")
+                osc.sendFloat({
+                    path: config.bits_osc_parameter,
+                    data: 1
+                    });
+                delayInterval = setTimeout(function() {
+                    osc.sendFloat({
+                        path: config.bits_osc_parameter,
+                        data: 0
+                        });
                 }, 1000);
                 break;
         }
